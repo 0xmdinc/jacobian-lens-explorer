@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Fitted lenses / checkpoints (large; regenerate with fit_lens.py)
+out/
+*.pt
+
+# Model weights / HF cache (never commit; downloaded on first run)
+*.safetensors
+models/
+.cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

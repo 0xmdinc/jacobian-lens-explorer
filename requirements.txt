@@ -1,0 +1,11 @@
+# Core: PyTorch with CUDA. If pip installs a CPU-only build, install a CUDA wheel
+# from https://pytorch.org/get-started/locally/ (e.g. --index-url .../cu124) instead.
+torch>=2.2
+transformers>=5.5
+huggingface_hub
+accelerate
+numpy
+flask
+
+# Anthropic's Jacobian lens reference implementation (not on PyPI):
+jlens @ git+https://github.com/anthropics/jacobian-lens.git

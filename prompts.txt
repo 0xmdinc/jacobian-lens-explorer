@@ -1,0 +1,10 @@
+# Prompts used to fit the lens. One per line. Lines starting with # are ignored.
+# Each prompt should be a full sentence (must tokenize to more than 17 tokens).
+# The paper suggests ~100-1000 sentences for a high quality lens; a handful gives
+# a rough but usable demo lens. Add your own to improve quality.
+The history of the Roman Empire spans over a thousand years, beginning with the legendary founding of the city of Rome and ending with the fall of Constantinople in the fifteenth century.
+Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize food from carbon dioxide and water, releasing oxygen as a byproduct of the reaction.
+The theory of general relativity, developed by Albert Einstein in the early twentieth century, describes gravity not as a force but as the curvature of spacetime caused by mass and energy.
+In computer science, a sorting algorithm arranges the elements of a list into a particular order, and well known examples include quicksort, merge sort, and heap sort, each with different tradeoffs.
+The human circulatory system consists of the heart, blood vessels, and blood, working together to carry oxygen, nutrients, and hormones to cells throughout the body while removing metabolic waste.
+The currency used in the country shaped like a boot in southern Europe was the lira for many decades before it was replaced by the euro at the beginning of the twenty first century.

@@ -1,0 +1,52 @@
+/* ===== Jacobian Lens dark theme (injected after the viewer's own <style>) ===== */
+:root{color-scheme:dark}
+html,body{background:#0d1220 !important;margin:0 !important}
+
+.jlens-page{
+  --bd:#2b3446 !important;
+  --fg:#e8ecf4 !important;      /* light default text -> cells are readable */
+  --dim:#9aa7bd !important;
+  --bg:#0d1220 !important;
+  --hl:#b98cff !important;
+  --hl-soft:rgba(185,140,255,.22) !important;
+  color-scheme:dark !important;
+  background:radial-gradient(1200px 520px at 18% -12%,#141d31 0%,#0d1220 62%) !important;
+}
+
+/* Keep the viewer's own token coloring (accents); just make faded/fallback text visible */
+.token-cell.fallback{color:#8b98af !important}
+.token-prefix{color:#6f7b90 !important}
+.row-label{color:#9aa7bd !important}
+
+/* --- SMALLER, compact fonts (close to the original design) --- */
+.header h1{font-size:18px !important;color:#f2f5fb !important;letter-spacing:.2px}
+.header .what{font-size:13px !important}
+.panel-column h2{font-size:13px !important;color:#c7d0e0 !important}
+.token-cell{font-size:11px !important;max-width:96px !important}
+.row-ctx-token{font-size:11px !important;width:56px !important}
+.row-label{font-size:10px !important;width:28px !important}
+.tt-token,.tt-rank{font-size:11px !important}
+.readout,.hint,.meta-line,.legend,.ws-row,.pinned-label{font-size:11px !important}
+.hm-yaxis,.hm-xaxis{font-size:10px !important}
+
+/* --- recolor the hardcoded light bits --- */
+.resize-handle,.v-resize{background:#161d2c !important}
+.resize-handle:hover,.v-resize:hover{background:#26324a !important}
+.tooltip{background:#141b29 !important;border-color:#2b3446 !important;color:#e8ecf4 !important;
+         box-shadow:0 8px 28px rgba(0,0,0,.6) !important}
+.readout b,.readout code{color:#fff !important}
+.help,.unpin-all,.chip-x{color:#8794ab !important}
+.unpin-all:hover,.pinned-chip:hover .chip-x{color:#fff !important}
+.pinned-chip{background:#141b29 !important;border-radius:6px !important}
+.token-row:hover{background:rgba(255,255,255,.06) !important}
+.token-cell:hover{outline-color:#3a4763 !important}
+.help{border-color:#3a4763 !important}
+.controls-bar,.bottom-controls{border-color:#2b3446 !important}
+
+/* --- charts / svg --- */
+.axis line{stroke:#2b3446 !important}
+.grid line{stroke:#1b2333 !important}
+.axis text,.chart-table text{fill:#9aa7bd !important;stroke:#0d1220 !important}
+[fill="#fafafa"],[fill="#f5f5f5"],[fill="#f4f4f4"]{fill:#111826 !important}
+.hm-yaxis{box-shadow:1px 0 0 #2b3446 !important}
+.hm-xaxis{box-shadow:0 -1px 0 #2b3446 !important}
